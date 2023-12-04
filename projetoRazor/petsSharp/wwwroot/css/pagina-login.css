@@ -1,0 +1,184 @@
+﻿
+@media (max-width: 1024px) {
+    .quadradocentral {
+        background-color: #212B46;
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        border-radius: 10%;
+        opacity: 80%;
+        top: 27%;
+        left: 33%;
+    }
+
+    .textoPetsharp {
+        font-size: 40px;
+        color: white;
+        top: -21%;
+        left: 28%;
+        position: relative;
+    }
+
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
+    }
+
+    .usuario {
+        width: 300px;
+        position: relative;
+        top: -15%;
+        left: 13%;
+    }
+
+    .senha {
+        width: 300px;
+        position: relative;
+        top: -25%;
+        left: 13%;
+    }
+
+
+    .entrar {
+        align-items: center;
+        position: relative;
+        width: 120px;
+        height: 30px;
+        left: 38%;
+    }
+
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .quadradocentral {
+        background-color: #212B46;
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        border-radius: 10%;
+        opacity: 80%;
+        top: 27%;
+        left: 33%;
+    }
+
+    .textoPetsharp {
+        font-size: 40px;
+        color: white;
+        top: -21%;
+        left: 28%;
+        position: relative;
+    }
+
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
+    }
+
+    .usuario {
+        width: 300px;
+        position: relative;
+        top: -15%;
+        left: 13%;
+    }
+
+    .senha {
+        width: 300px;
+        position: relative;
+        top: -25%;
+        left: 13%;
+    }
+
+
+    .entrar {
+        align-items:center;
+        position: relative;
+        width: 120px;
+        height: 30px;
+        left: 38%;
+    }
+}
+
+@media (min-width: 1441px) {
+    .quadradocentral {
+        background-color: #212B46;
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        border-radius: 10%;
+        opacity: 80%;
+        top: 27%;
+        left: 33%;
+    }
+
+    .textoPetsharp {
+        font-size: 40px;
+        color: white;
+        top: -21%;
+        left: 28%;
+        position: relative;
+    }
+
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
+    }
+
+    .usuario {
+        width: 300px;
+        position: relative;
+        top: -15%;
+        left: 13%;
+    }
+
+    .senha {
+        width: 300px;
+        position: relative;
+        top: -25%;
+        left: 13%;
+    }
+
+
+    .entrar {
+        align-items: center;
+        position: relative;
+        width: 120px;
+        height: 30px;
+        left: 38%;
+    }
+}
+

@@ -1,0 +1,850 @@
+﻿@media (max-width: 1024px) {
+    /* MENU LATERAL */
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 149px;
+            background-color: #151A30;
+            top: 13%;
+        }
+
+    .dashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 14%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .estoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 41%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 22%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .vendas {
+        position: relative;
+        width: 42px;
+        top: 20%;
+        right: 30%;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .animais {
+        position: relative;
+        width: 55px;
+        top: 24%;
+        right: 37%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 27%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .tesoura {
+        position: relative;
+        width: 41px;
+        top: 27%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 870px;
+        height: 485px;
+        background-color: #212B46;
+        left: 20%;
+        top: 16%;
+    }
+
+
+    .quadradoNome {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -5%;
+    }
+
+    .textoNome {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: 3%;
+        width: 100px;
+    }
+
+
+    .quadradoCategoria {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -24%;
+    }
+
+    .textoCategoria {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -16%;
+        width: 100px;
+    }
+
+    .quadradoEndereco {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -26%;
+    }
+
+    .textoEndereco {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -18%;
+        width: 100px;
+    }
+
+    .quadradoBairro {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -45%;
+    }
+
+    .textoBairro {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -37%;
+        width: 100px;
+    }
+
+    .quadradoCidade {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -46%;
+    }
+
+    .textoCidade {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -38%;
+        width: 100px;
+    }
+
+    .quadradoEstado {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -65%;
+    }
+
+    .textoEstado {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -57%;
+        width: 100px;
+    }
+
+    .quadradoCNPJ {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -66%;
+    }
+
+    .textoCNPJ {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -58%;
+        width: 100px;
+    }
+
+    .quadradoContato {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -85%;
+    }
+
+    .textoContato {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -77%;
+        width: 100px;
+    }
+
+    .botaoCadastrar {
+        position: relative;
+        top: -75%;
+        left: 45%;
+    }  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+
+    /* MENU LATERAL */
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 149px;
+            background-color: #151A30;
+            top: 13%;
+        }
+
+    .dashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 14%;
+        left: 35%;
+    }
+
+    .estoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 41%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 22%;
+        left: 35%;
+    }
+
+    .vendas {
+        position: relative;
+        width: 42px;
+        top: 20%;
+        right: 30%;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 25%;
+        left: 35%;
+    }
+
+    .animais {
+        position: relative;
+        width: 55px;
+        top: 24%;
+        right: 37%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 27%;
+        left: 35%;
+    }
+
+    .tesoura {
+        position: relative;
+        width: 41px;
+        top: 27%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 870px;
+        height: 485px;
+        background-color: #212B46;
+        left: 20%;
+        top: 16%;
+    }
+
+
+    .quadradoNome {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -5%;
+    }
+
+    .textoNome {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: 3%;
+        width: 100px;
+    }
+
+
+    .quadradoCategoria {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -24%;
+    }
+
+    .textoCategoria {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -16%;
+        width: 100px;
+    }
+
+    .quadradoEndereco {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -26%;
+    }
+
+    .textoEndereco {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -18%;
+        width: 100px;
+    }
+
+    .quadradoBairro {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -45%;
+    }
+
+    .textoBairro {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -37%;
+        width: 100px;
+    }
+
+    .quadradoCidade {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -46%;
+    }
+
+    .textoCidade {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -38%;
+        width: 100px;
+    }
+
+    .quadradoEstado {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -65%;
+    }
+
+    .textoEstado {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -57%;
+        width: 100px;
+    }
+
+    .quadradoCNPJ {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -66%;
+    }
+
+    .textoCNPJ {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -58%;
+        width: 100px;
+    }
+
+    .quadradoContato {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -85%;
+    }
+
+    .textoContato {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -77%;
+        width: 100px;
+    }
+
+    .botaoCadastrar {
+        position: relative;
+        top: -75%;
+        left: 45%;
+    }
+ 
+}
+
+@media (min-width: 1440px) {
+    /* MENU LATERAL */
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+        text-decoration: none;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 149px;
+            background-color: #151A30;
+            top: 13%;
+        }
+
+    .dashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 14%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .estoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 41%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 22%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .vendas {
+        position: relative;
+        width: 42px;
+        top: 20%;
+        right: 30%;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .animais {
+        position: relative;
+        width: 55px;
+        top: 24%;
+        right: 37%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 27%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .tesoura {
+        position: relative;
+        width: 41px;
+        top: 27%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 870px;
+        height: 485px;
+        background-color: #212B46;
+        left: 20%;
+        top: 16%;
+    }
+
+
+    .quadradoNome {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -5%;
+    }
+
+    .textoNome {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: 3%;
+        width: 100px;
+    }
+
+
+    .quadradoCategoria {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -24%;
+    }
+
+    .textoCategoria {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -16%;
+        width: 100px;
+    }
+
+    .quadradoEndereco {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -26%;
+    }
+
+    .textoEndereco {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -18%;
+        width: 100px;
+    }
+
+    .quadradoBairro {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -45%;
+    }
+
+    .textoBairro {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -37%;
+        width: 100px;
+    }
+
+    .quadradoCidade {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -46%;
+    }
+
+    .textoCidade {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -38%;
+        width: 100px;
+    }
+
+    .quadradoEstado {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -65%;
+    }
+
+    .textoEstado {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -57%;
+        width: 100px;
+    }
+
+    .quadradoCNPJ {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 10%;
+        top: -66%;
+    }
+
+    .textoCNPJ {
+        color: white;
+        position: relative;
+        left: 10%;
+        font-size: 150%;
+        top: -58%;
+        width: 100px;
+    }
+
+    .quadradoContato {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        left: 61%;
+        top: -85%;
+    }
+
+    .textoContato {
+        color: white;
+        position: relative;
+        left: 61%;
+        font-size: 150%;
+        top: -77%;
+        width: 100px;
+    }
+
+    .botaoCadastrar {
+        position: relative;
+        top: -75%;
+        left: 45%;
+    }
+}

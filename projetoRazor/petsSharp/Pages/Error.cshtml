@@ -1,0 +1,48 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em Desenvolvimento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #333; /* Cor de fundo escura */
+            color: #fff; /* Cor do texto clara */
+            margin: 0;
+        }
+
+        h1 {
+            color: #66ccff; /* Cor do título */
+        }
+
+        p {
+            color: #ccc; /* Cor do texto normal */
+        }
+
+        a {
+            color: #66ccff; /* Cor do link */
+            text-decoration: none;
+            border-bottom: 1px solid #66ccff; /* Linha sublinhada sob o link */
+        }
+
+        a:hover {
+            color: #99ccff; /* Cor do link ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Site em Desenvolvimento</h1>
+    <p>Nosso site está atualmente em fase de desenvolvimento. Pedimos desculpas pela inconveniência.</p>
+    <p>Em breve teremos novidades! Obrigado pela compreensão.</p>
+    <a asp-area="" asp-page="/dashboard">Voltar</a>
+</body>
+</html>
